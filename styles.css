@@ -46,7 +46,7 @@ a { color:inherit; }
 .eyebrow { margin:0 0 10px; color:var(--seafoam-dark); font-size:.78rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
 h1,h2,h3 { color:var(--slate); }
 h1,h2 { font-family:"Libre Baskerville",serif; }
-.hero { position:relative; min-height:calc(100vh - 116px); overflow:hidden; padding:86px 0 104px; background:linear-gradient(90deg,rgba(19,42,55,.9) 0%,rgba(19,42,55,.78) 42%,rgba(19,42,55,.34) 68%,rgba(19,42,55,.08) 100%), url("assets/homepage-hero-seacoast-home.png") center / cover no-repeat; }
+.hero { position:relative; min-height:calc(100vh - 116px); overflow:hidden; padding:86px 0 104px; background:linear-gradient(90deg,rgba(19,42,55,.9) 0%,rgba(19,42,55,.78) 42%,rgba(19,42,55,.34) 68%,rgba(19,42,55,.08) 100%), url("assets/homepage-hero-seacoast-home.png?v=1.0") center / cover no-repeat; }
 .hero:after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,rgba(19,42,55,.06),rgba(19,42,55,.28)); }
 .hero-grid { position:relative; z-index:2; display:grid; grid-template-columns:minmax(0,1fr) 360px; gap:64px; align-items:center; }
 .hero .eyebrow { color:#DDF7F5; }
